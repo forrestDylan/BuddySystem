@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/budd_selection_layout_fragment"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <CheckBox
+        android:id="@+id/add_value"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

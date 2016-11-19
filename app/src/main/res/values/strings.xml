@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BuddySystem</string>
+    <string name="title_activity_buddy_selection">BuddySelection</string>
+    <string name="action_settings">Settings</string>
+    <string name="soloSessionSorryMessage">I\'m very sorry, SoloSession capabilities are not available yet.</string>
+    <string name="welcomeMessage">Welcome to the Buddy System</string>
+    <string name="buddySessionButtonText">Or will this be a Buddy Session?</string>
+    <string name="soloSessionButtonText">Will this be a solo session?</string>
+    <string name="buddyButtonText">Buddy</string>
+    <string name="soloButtonText">Solo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
