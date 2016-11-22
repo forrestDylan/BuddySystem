@@ -16,7 +16,7 @@ public class BuddySelection extends AppCompatActivity {
     private ArrayList<String> contactList = new ArrayList<>();
     ArrayList<Buddy> buddyList = new ArrayList<>();
 
-    private BuddySelection(){}
+    public BuddySelection(){}
 
     private static class BuddySelectionSingle{
         private static final BuddySelection INSTANCE = new BuddySelection();
