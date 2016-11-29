@@ -9,6 +9,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -64,16 +66,17 @@ public class BuddySelectionViewFragment extends Fragment {
     }
 
     private class SelectionViewHolder extends RecyclerView.ViewHolder {
-        private View notSure;
+        private TextView name;
+        private CheckBox add;
 
         public SelectionViewHolder(View itemView){
             super(itemView);
-            notSure = itemView;
+            name = (TextView) itemView.findViewById(R.id.contact_name);
+            add = (CheckBox) itemView.findViewById(R.id.add_value);
         }
 
         public void bind(int position){
             String cName = BuddySelection.getBuddySelection().getContactList().get(position);
-            //NOT SURE WHAT TO DO HERE
         }
     }
 }
